@@ -1,0 +1,25 @@
+---
+title: Blogs
+header: Woahhh articles??? Thats crazy.
+layout: "base.html"
+---
+<p>
+  Alright so, catch this.<br>
+  I can write stuff??!?!?!?!<br>
+  Yall are <i>contractually</i> oblicated to read this shit, soooo.<br>
+  get right in there babes!!
+</p>
+<br>
+<h2 title='Things Ill "eventually" get to. Sorted from the top by how much I want to do them.'>In The Works</h2>
+<ul class="myUL" title='Things Ill "eventually" get to. Sorted from the top by how much I want to do them.'>
+  <li>My experience as a puppygirl/therian</li>
+  <li>Legally questionable software guide</li>
+  <li>My experience so far on Gnu/Linux</li>
+</ul>
+
+<h2>Main</h2>
+<ul class="myUL">
+{% for mainblog in collections.mainblog | reverse %}
+<li><time>{{ mainblog.data.date | postDate }}</time> - <a href="{{ mainblog.url }}">{{ mainblog.data.header }}</a></li>
+{% endfor %}
+</ul>
