@@ -2,7 +2,6 @@
 title: Nope 2022
 header: Nope 2022, a total ten out of ten
 date: 2024-05-29
-layout: "blog.html"
 ---
 God, where to begin?  
 

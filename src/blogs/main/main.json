@@ -1,4 +1,4 @@
 {
-  "Layout": "blog.html",
+  "layout": "blog.html",
   "tags": "mainblog"
 }

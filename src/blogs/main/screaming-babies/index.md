@@ -2,7 +2,6 @@
 title: Info
 header: Why screaming babies suck ass
 date: 2023-10-16
-layout: "blog.html"
 ---
 These little [infants](https://en.wikipedia.org/wiki/Infant "disgusting little thing") have been screaching, taking up our space, [infiltrating our mothers vaginas](https://en.wikipedia.org/wiki/Human_sexual_activity "GAH. HORRIFYING") and their hearts, it must be stopped at ALL COSTS.  
 I propose that we [AXE all of those babies at a moments notice](https://en.wikipedia.org/wiki/Abortion "the only way."), or else they will take over the **ENTIRE WORLD**.  
