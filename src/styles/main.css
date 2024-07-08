@@ -7,10 +7,6 @@
   --linkhover:#131212;
   --border:black;
 }
-@font-face {
-  font-family: 'homestuck-font'; 
-  src: url('/assets/homestuck-font.ttf'); 
-}
 
 body{
   background-color:var(--main);
@@ -19,7 +15,7 @@ body{
   margin-bottom: 80px;
   margin-right: 0px;
   padding: 0px 15px;
-  font-family:"Courier New", "homestuck-font";
+  font-family:"Courier New", Courier, monospace;
   font-size: 150%;
   font-weight: bold;
 }
@@ -110,6 +106,7 @@ iframe {border: none;}
   margin-right: auto;}
 #listening{
   width: 138px;
+  margin-bottom: 100px;
 }
 #listening > img{
   width: 100px;
