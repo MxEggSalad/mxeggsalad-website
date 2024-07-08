@@ -4,6 +4,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/scripts/*.js");
   eleventyConfig.addPassthroughCopy("src/not_found.html");
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
+  eleventyConfig.addPassthroughCopy("src/elements.css");
 
   eleventyConfig.addPassthroughCopy("**/*.{jpg,webp,png,gif,mp3,ogg}");
   eleventyConfig.addFilter("postDate", (dateObj) => {
