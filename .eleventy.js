@@ -16,5 +16,4 @@ module.exports = function (eleventyConfig) {
       output: "../_built",
     }
   }
-  
 }
