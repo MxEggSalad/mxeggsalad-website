@@ -19,7 +19,7 @@ Goddd did it take a while though
 
 <hr>
 
-Alright for the unanitiated, [11ty](https://11ty.dev) is a pretty nice site generator which pirked my ears a while ago because of how *annoyingggg* working with large ass html files is.
+Alright for the uninitiated, [11ty](https://11ty.dev) is a pretty nice site generator which perked my ears a while ago because of how *annoyingggg* working with large ass html files is.
 
 ~~(then i lost all motivation for my site for like 1-2 months...)~~
 
@@ -31,7 +31,7 @@ Mainly, its features relating to automated layours help me the most I'd say
 
 <img src="img1.png" alt="screenshot of html code outlining basic boilerplate functions, with some of their contents replaced with double curly braced ( {} ) variables">
 
-I can just chuck all of my boilerplate or more complex layouts into completely sepperate files!!! Lifesaver seriously
+I can just chuck all of my boilerplate or more complex layouts into completely separate files!!! Lifesaver seriously
 
 Even though this was the initiating factor for me, another big feature keeping me here is the automation  
 omg the automation
