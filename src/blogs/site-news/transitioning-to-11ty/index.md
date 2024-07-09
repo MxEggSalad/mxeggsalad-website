@@ -28,7 +28,9 @@ But eventually I found that gosh it has a myriad of other features that can help
 <hr>
 
 Mainly, its features relating to automated layours help me the most I'd say
-![screenshot of html code outlining basic boilerplate functions, with some of their contents replaced with double curly braced ( {} ) variables](img1.png)
+
+<img src="img1.png" alt="screenshot of html code outlining basic boilerplate functions, with some of their contents replaced with double curly braced ( {} ) variables">
+
 I can just chuck all of my boilerplate or more complex layouts into completely sepperate files!!! Lifesaver seriously
 
 Even though this was the initiating factor for me, another big feature keeping me here is the automation  
