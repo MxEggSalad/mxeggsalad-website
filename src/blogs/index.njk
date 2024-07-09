@@ -19,7 +19,14 @@ layout: "base.njk"
 
 <h2>Main</h2>
 <ul class="myUL">
-{% for mainblog in collections.mainblog | reverse %}
-<li><time>{{ mainblog.data.date | postDate }}</time> - <a href="{{ mainblog.url }}">{{ mainblog.data.header }}</a></li>
-{% endfor %}
+  {% for mainblog in collections.mainblog | reverse %}
+    <li><time>{{ mainblog.data.date | postDate }}</time> - <a href="{{ mainblog.url }}">{{ mainblog.data.header }}</a></li>
+  {% endfor %}
+</ul>
+
+<h2>Site News</h2>
+<ul class="myUL">
+  {% for sitenews in collections.sitenews | reverse %}
+    <li><time>{{ sitenews.data.date | postDate }}</time> - <a href="{{ sitenews.url }}">{{ sitenews.data.header }}</a></li>
+  {% endfor %}
 </ul>
