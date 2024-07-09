@@ -94,7 +94,10 @@ iframe {border: none;}
   width: 110px;
   padding: 0px 14px;
   margin-bottom: 0;}
-.links li{padding-bottom: 8px; padding-top: 8px;}
+.mainNav ul li{padding-bottom: 8px; padding-top: 8px;}
+.mainNav ul * .active{
+  font-style: italic;
+}
 .myButton{
   width: 120px;
   padding: 11px 9px 9px 9px;}
