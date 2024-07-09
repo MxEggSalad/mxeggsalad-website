@@ -1,6 +1,9 @@
 ---
 title: Info
 header: Why screaming babies suck ass
+url: https://mxeggsalad.nekoweb.org/blogs/main/screaming-babies
+image: img1.jpg
+alt: " "
 date: 2023-10-16
 ---
 These little [infants](https://en.wikipedia.org/wiki/Infant "disgusting little thing") have been screaching, taking up our space, [infiltrating our mothers vaginas](https://en.wikipedia.org/wiki/Human_sexual_activity "GAH. HORRIFYING") and their hearts, it must be stopped at ALL COSTS.  

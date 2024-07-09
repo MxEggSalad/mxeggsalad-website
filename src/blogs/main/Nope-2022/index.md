@@ -1,6 +1,8 @@
 ---
 title: Nope 2022
 header: Nope 2022, a total ten out of ten
+url: https://mxeggsalad.nekoweb.org/blogs/main/Nope-2022
+image: img1.png
 date: 2024-05-29
 ---
 God, where to begin?  
