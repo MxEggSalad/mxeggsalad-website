@@ -17,10 +17,10 @@ body{
   font-family: "Courier New", "homestuck-font";
 }
 
-main{
+#container{
   display: block;
   padding: 15px;
-  margin: 10px 13% 30px 13%;
+  margin: 10px 13% 50px 13%;
   background-color:var(--second);
   border: 3px solid var(--border);
   border-radius: 5px;
@@ -85,12 +85,25 @@ strong{
   padding: 1px 2px 1px 2px;
 }
 
-a:link{-webkit-text-fill-color:var(--link);}
-a:visited{-webkit-text-fill-color:var(--linkvisited);}
+a:link{color:var(--link);}
+a:visited{color:var(--linkvisited);}
 a:hover{background-color:var(--linkhover);}
 a:hover:has(img){
   background: none;
   opacity: 70%;
 }
+
+.feedButton{
+  margin-top: 0;
+  background: linear-gradient(to bottom, #f89738 0%, #e4722e 100%);  color: white;
+  padding: 2px 5px 1px 3px;
+  border: 4px ridge white;
+  color: var(--text) !important;
+  font-weight: bolder;
+  font-size: 120%;
+  position: fixed;
+  top: 10px;
+  right: 10px;}
+.feedButton:hover{opacity: 70%;}
 
 iframe {border: none;}

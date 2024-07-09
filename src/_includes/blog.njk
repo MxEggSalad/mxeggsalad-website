@@ -9,8 +9,20 @@
 
 <body>
   <main>
-    <h1>{{ header }}</h1>
-    {{ content | safe }}
+    <div id="container">
+      <h1>{{ header }}</h1>
+      {{ content | safe }}
+    </div>
   </main>
 </body>
+
+  {%- if tags == "mainblog" -%}
+  <a href="https://mxeggsalad.nekoweb.org/mainblog.xml" class="feedButton">
+    Atom Feed</a>
+  {%- endif -%}
+  
+  {%- if tags == "sitenews" -%}
+  <a href="https://mxeggsalad.nekoweb.org/site-news.xml" class="feedButton">
+    Atom Feed</a>
+  {%- endif -%}
 </html>
