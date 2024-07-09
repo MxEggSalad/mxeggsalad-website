@@ -48,6 +48,16 @@ p{
   line-height: 1.2;
 }
 
+pre:has(code){
+  background-color: var(--main);
+  padding: 10px;
+  border: inherit;
+  border-radius: inherit;
+  margin-right: 12%;
+  color: var(--text);
+  width: fit-content;
+}
+
 img{
   margin: 40px;
   display: block;
