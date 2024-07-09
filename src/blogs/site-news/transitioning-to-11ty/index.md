@@ -1,7 +1,6 @@
 ---
 title: 11ty-ing my hog
 header: Transitioning to 11ty
-url: https://mxeggsalad.nekoweb.org/blogs/site-news/transitioning-to-11ty
 date: 2024-07-09
 ---
 HOLYFUCK AHHHHH
