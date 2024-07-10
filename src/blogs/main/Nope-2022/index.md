@@ -1,5 +1,6 @@
 ---
 title: Nope 2022
+description: My look at the film Nope (2022) and how I think its AMAZING
 header: Nope 2022, a total ten out of ten
 url: https://mxeggsalad.nekoweb.org/blogs/main/Nope-2022
 image: img1.png

@@ -1,5 +1,6 @@
 ---
 title: Info
+description: Disgusting babies. Purge them with fire and leave only the ashy remnants.
 header: Why screaming babies suck ass
 url: https://mxeggsalad.nekoweb.org/blogs/main/screaming-babies
 image: img1.jpg

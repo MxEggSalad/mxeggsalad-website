@@ -1,5 +1,6 @@
 ---
 title: 11ty-ing my hog
+description: Ramble about my transition to 11ty
 header: Transitioning to 11ty
 date: 2024-07-09
 ---

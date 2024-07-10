@@ -1,5 +1,6 @@
 ---
 title: New Domain!
+description: Small post about my new domain
 header: "New Domain: mxeggsalad.pet"
 date: 2024-07-10
 ---
