@@ -1,3 +1,25 @@
+10th of July, 2024
+
+Holy cow im so tired. i feel like my brains going to explode
+
+shocking how much work ive done while in this state
+
+another piece of news-ish, ive bought a guitar!
+
+well really this happened last week, but it kept slipping my mind
+
+its a,,, a uh,,, wait let me grab it.  
+"Tokai Legacy" Strat. i think
+
+it does look pretty crappy, but i only really care about how it sounds  
+im pretty sure the "looks" of it also made it cheaper, it was 50% off alongside that
+
+but yeah im trying to train my fingers to use the fretboard properly for now, and learning a few chords while im at it
+
+i havent been using any specific tutorials, but i will post links to them if i find one especially helpful
+
+oh oh shoot also, small site update, we finally have metadata again. really nice. its all automated (thankfully), other than the page descriptions, which im fine with having in frontmatter
+<hr>
 8th of July, 2024
 
 weow
