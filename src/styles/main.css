@@ -119,12 +119,16 @@ iframe {border: none;}
 #listening > #trackInfo > h3{
   margin-top: 2px;
   margin-bottom: 0;
-  font-size: 95%;
+  font-size: 80%;
+    list-style-type: disc;
+}
+.isPlaying{
+  background-color: green;
 }
 #listening > #trackInfo > p{
   margin-top: 12px;
   margin-bottom: 10px;
-  font-size: 85%;
+  font-size: 70%;
 }
 
 .mainNav::-webkit-scrollbar {display: none;}
