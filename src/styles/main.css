@@ -98,18 +98,8 @@ iframe {border: none;}
 .mainNav ul * .active{
   font-style: italic;
 }
-.myButton{
-  width: 120px;
-  padding: 11px 9px 9px 9px;}
-.myButton img{
-  border: none;
-  border-radius: 0;
-  margin-top: 2px;
-  margin-left: auto;
-  margin-right: auto;}
 #listening{
   width: 138px;
-  margin-bottom: 100px;
 }
 #listening > img{
   width: 100px;
@@ -120,7 +110,6 @@ iframe {border: none;}
   margin-top: 2px;
   margin-bottom: 0;
   font-size: 80%;
-    list-style-type: disc;
 }
 .isPlaying{
   background-color: green;
@@ -130,6 +119,16 @@ iframe {border: none;}
   margin-bottom: 10px;
   font-size: 70%;
 }
+.myButton{
+  width: 120px;
+  padding: 11px 9px 9px 9px;
+  margin-bottom: 100px;}
+.myButton img{
+  border: none;
+  border-radius: 0;
+  margin-top: 2px;
+  margin-left: auto;
+  margin-right: auto;}
 
 .mainNav::-webkit-scrollbar {display: none;}
 
