@@ -26,21 +26,25 @@
     
         if(!isPlaying) {
           document.getElementById("listening").innerHTML = `
-          <img src="${json.track.image[2]['#text']}">
-          <div id="trackInfo">
-          <h3 id="trackName" style="color: red;"><b>${json.track.name}</b></h3>
-          <p id="artistName">${json.track.artist['#text']}</p>
-          </div>`
+          <a href="${json.track.url}">
+            <img src="${json.track.image[2]['#text']}">
+            <div id="trackInfo">
+              <h3 id="trackName" style="color: red;"><b>${json.track.name}</b></h3>
+              <p id="artistName">${json.track.artist['#text']}</p>
+            </div>
+          </a>`
           console.log("NOT PLAYING")
           return;
         } 
         else {
           document.getElementById("listening").innerHTML = `
-          <img src="${json.track.image[2]['#text']}">
-          <div id="trackInfo">
-          <h3 id="trackName" style="color: green;"><b>${json.track.name}</b></h3>
-          <p id="artistName">${json.track.artist['#text']}</p>
-          </div>`
+          <a href="${json.track.url}">
+            <img src="${json.track.image[2]['#text']}">
+            <div id="trackInfo">
+              <h3 id="trackName" style="color: green;"><b>${json.track.name}</b></h3>
+              <p id="artistName">${json.track.artist['#text']}</p>
+            </div>
+            </a>`
           console.log("PLAYING")
           return;
         }
@@ -57,8 +61,8 @@
 
   <div class="myButton">
     <div>
-      <a href="/assets/buttons/mxeggsalad.nekoweb.org.gif" target="_blank">
-      <img src="/assets/buttons/mxeggsalad.nekoweb.org.gif" alt=" " height="35" width="100"></a>
+      <a href="/assets/buttons/mxeggsalad.nekoweb.org.webp" target="_blank">
+      <img src="/assets/buttons/mxeggsalad.nekoweb.org.webp" alt=" " height="35" width="100"></a>
     </div>
   </div>
 </div>

@@ -105,20 +105,20 @@ iframe {border: none;}
 #listening{
   width: 138px;
 }
-#listening > img{
+#listening > a{
+  text-decoration: none;
+}
+#listening > a > img{
   width: 100px;
   height: 100px;
   margin-top: 10px;
 }
-#listening > #trackInfo > h3{
+#listening > a > #trackInfo > h3{
   margin-top: 2px;
   margin-bottom: 0;
   font-size: 80%;
 }
-.isPlaying{
-  background-color: green;
-}
-#listening > #trackInfo > p{
+#listening > a > #trackInfo > p{
   margin-top: 12px;
   margin-bottom: 10px;
   font-size: 70%;
