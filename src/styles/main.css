@@ -99,9 +99,8 @@ iframe {border: none;}
   padding-bottom: 8px; 
   padding-top: 8px;
   text-align: left;}
-.mainNav ul * .active{
-  font-style: italic;
-}
+.mainNav ul * .active{font-style: italic;}
+
 #listening{
   width: 138px;
 }
