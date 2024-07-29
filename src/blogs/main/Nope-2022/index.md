@@ -27,7 +27,7 @@ it tortures you in its gullet until it washes you with a thick helping of its ac
 
 This thing fills me with so much emotion, its disgusting and I hate it and how much dread it fills me with.
 
-<img src="img1.png">
+<img src="img1.jpg">
 
 (Side-note, LOVE the black bars removal of this scene, honestly I've only noticed on rewatch, but it uses black bars a LOT and loves to toggle them)
 
@@ -39,10 +39,10 @@ I'll say it, the Indomitable human spirit goes CRAZY hard in this film.
 It manages it so well with the motivations of the characters too, their motivations to keep hitting the brick wall are so fucking stupid, the losses are outweighing their gains at this point, but they're so understandable to the audience. Who doesn't want to be the first?
 
 The first to create the perfect film
-![](img2.png)
+![](img2.jpg)
 
 The first to get a UFO/UAP money shot and reap the rewards
-![](img3.png)
+![](img3.jpg)
 
 The ends that these characters go to to reap these neigh fruitless actions, either motivated with something past their life, their existence, their legacy, or with the act of finally finishing what others tried and failed to do, to finish the damn job, just for them. I TOTALLY didn't cry writing this shut the fuck up.
 
