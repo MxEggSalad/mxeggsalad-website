@@ -5,6 +5,14 @@
   <link rel="stylesheet" href="/styles/blogs.css">
   <meta charset="utf-8">
   <meta name="author" content="mxeggsalad">
+  {%- if tags == "mainblog" -%}
+  <link rel="alternate" type="application/atom+xml" href="https://mxeggsalad.pet/mainblog.xml">
+  {%- endif -%}
+  
+  {%- if tags == "sitenews" -%}
+  <link rel="alternate" type="application/atom+xml" href="https://mxeggsalad.pet/sitenews.xml">
+  {%- endif -%}
+
   <!--OG-->
   <meta name="og:title" content="{{ title }}">
   <meta name="og:description" content="{{ description }}">
