@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-rss": "^1.2.0"
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "clean-css": "^5.3.3"
   }
 }

@@ -1,0 +1,7 @@
+#microblogsFrame{
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  width: 90%;
+  height: 500px;
+  background-color: var(--second);
+  -webkit-text-fill-color: var(--text);}

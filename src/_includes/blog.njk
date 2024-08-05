@@ -2,7 +2,11 @@
 <html lang="en-US">
 <head>
   <title>{{ title }}</title>
-  <link rel="stylesheet" href="/styles/blogs.css">
+  {% set css %}
+    {% include "css/blogs.css" %}
+  {% endset %}
+  <style>{{ css | cssmin | safe }}</style>
+
   <meta charset="utf-8">
   <meta name="author" content="mxeggsalad">
   {%- if tags == "mainblog" -%}
@@ -35,7 +39,7 @@
       {{ content | safe }}
     </div>
   </main>
-</body>
+  <script src="/scripts/cssload.js"></script>
   {%- if tags == "mainblog" -%}
   <a href="https://mxeggsalad.nekoweb.org/mainblog.xml" class="feedButton">
     Atom Feed</a>
@@ -45,4 +49,5 @@
   <a href="https://mxeggsalad.nekoweb.org/sitenews.xml" class="feedButton">
     Atom Feed</a>
   {%- endif -%}
+</body>
 </html>

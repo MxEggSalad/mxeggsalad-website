@@ -1,0 +1,31 @@
+.latestCommit{
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 474px;
+  background-color:var(--second);
+  text-decoration: none;
+  border: 2px solid var(--border);
+  border-radius: 10px;}
+.latestCommit p{
+  margin-top: 2px;
+  margin-bottom: 6px;}
+.link{      
+  text-decoration: underline;}
+#sha{
+  margin-top: 10px;
+  margin-bottom: 4px;
+  color: var(--text);
+  font-size: large;
+  font-family: monospace}
+#message{
+  margin-top: 0;
+  color: var(--text);
+  font-size: large;
+  font-family: monospace}
+.latestCommit:hover{
+  background-color:var(--second);
+  opacity: 70%;}

@@ -2,7 +2,11 @@
 <html lang="en-AU">
 <head>
   <title>{{ title }}</title>
-  <link rel="stylesheet" href="/styles/main.css">
+  {% set css %}
+    {% include "css/base.css" %}
+  {% endset %}
+  <style>{{ css | cssmin | safe }}</style>
+
   <link rel="alternate" type="application/atom+xml" href="https://mxeggsalad.pet/mainblog.xml">
   <link rel="alternate" type="application/atom+xml" href="https://mxeggsalad.pet/sitenews.xml">
   <meta charset="utf-8">
@@ -37,5 +41,6 @@
 
   {% include "components/ccfooter.njk" %}
 
+  <script src="/scripts/cssload.js"></script>
 </body>
 </html>

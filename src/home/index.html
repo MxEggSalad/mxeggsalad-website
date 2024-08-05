@@ -4,39 +4,6 @@ description: A speradic display of my autistic tendencies and interests. Expect 
 header: This is a Heading
 layout: "base.njk"
 ---
-<style>
-.latestCommit{
-display: block;
-padding: 10px;
-margin-top: 20px;
-margin-bottom: 20px;
-margin-left: auto;
-margin-right: auto;
-max-width: 474px;
-background-color:var(--second);
-text-decoration: none;
-border: 2px solid var(--border);
-border-radius: 10px;}
-.latestCommit p{
-margin-top: 2px;
-margin-bottom: 6px;}
-.link{      
-text-decoration: underline;}
-#sha{
-margin-top: 10px;
-margin-bottom: 4px;
-color: var(--text);
-font-size: large;
-font-family: monospace}
-#message{
-margin-top: 0;
-color: var(--text);
-font-size: large;
-font-family: monospace}
-.latestCommit:hover{
-background-color:var(--second);
-opacity: 70%;}
-</style>
 <script>
   fetch('https://api.github.com/repos/MxEggSalad/mxeggsalad-website/commits?per_page=1')
   .then(res => res.json())
