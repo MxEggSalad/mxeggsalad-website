@@ -11,7 +11,7 @@
 body{
   background-color:var(--main);
   text-align: center;
-  margin-left: 170px;
+  margin-left: 184px;
   margin-bottom: 80px;
   margin-right: 0px;
   padding: 0px 15px;
@@ -65,82 +65,6 @@ ul.noBullets{
 }
 
 iframe {border: none;}
-
-/* Just stuff for sticky navbar */
-.mainNav{
-  height: 100%;
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  padding: 0 14px;
-  background-color:var(--second);
-  overflow-x: hidden;
-  font-family: monospace;
-  /* hate having to rule the border like this */
-  border-style: solid;
-  border-width: 2px 2px 2px 0px;
-  border-radius: 0px 10px 10px;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */}
-.mainNav > *{
-  border: 2px solid var(--border); 
-  margin-top: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-  background-color: var(--main);}
-.mainNav ul{
-  list-style-type: none;
-  width: 110px;
-  padding: 0px 14px 0px 20px;
-  margin-bottom: 0;}
-.mainNav ul li{
-  padding-bottom: 8px; 
-  padding-top: 8px;
-  text-align: left;}
-.mainNav ul * .active{font-style: italic;}
-
-#listening{
-  width: 138px;
-}
-#listening > a{
-  text-decoration: none;
-}
-#listening > a > img{
-  width: 100px;
-  height: 100px;
-  margin-top: 10px;
-}
-#listening > a > #trackInfo > h3{
-  margin-top: 2px;
-  margin-bottom: 0;
-  font-size: 80%;
-}
-#listening > a > #trackInfo > p{
-  margin-top: 12px;
-  margin-bottom: 10px;
-  font-size: 70%;
-}
-.myButton{
-  width: 120px;
-  padding: 11px 9px 9px 9px;
-  margin-bottom: 100px;}
-.myButton img{
-  border: none;
-  border-radius: 0;
-  margin-top: 2px;
-  margin-left: auto;
-  margin-right: auto;}
-
-.mainNav::-webkit-scrollbar {display: none;}
-
-.followButton{
-  position: fixed;
-  top: 0;
-  right: 0;
-  margin: 3px;
-}
 
 .footBorder{
   position: fixed;

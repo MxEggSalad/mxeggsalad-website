@@ -1,0 +1,105 @@
+.mainNav{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 15px;
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  padding: 17px 17px 0 14px;
+  background-color:var(--second);
+  overflow-x: hidden;
+  font-family: monospace;
+  /* hate having to rule the border like this */
+  border-style: solid;
+  border-width: 2px 2px 2px 0px;
+  border-radius: 0px 10px 10px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.mainNav > *{
+  background-color: var(--main);
+  width: 148px;
+  border: 2px solid var(--border);
+  border-radius: 10px;
+}
+.mainNav ul{
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  margin: 0;
+  list-style-type: none;
+  padding: 8px 0 8px 0;
+}
+.mainNav ul li{
+  padding: 0 14px 0 20px;
+  text-align: left;
+}
+.mainNav ul * .active{font-style: italic;}
+
+#listening > a{text-decoration: none;}
+#listening > a > img{
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+#listening > a > #trackInfo > h3{
+  margin-top: 2px;
+  margin-bottom: 0;
+  font-size: 80%;
+}
+#listening > a > #trackInfo > p{
+  margin-top: 12px;
+  margin-bottom: 10px;
+  font-size: 70%;
+}
+.myButton{margin-bottom: 100px;}
+.myButton img{
+  padding: 11px 9px 9px 9px;
+  border: none;
+  border-radius: 0;
+  margin-top: 2px;
+  margin-left: auto;
+  margin-right: auto;}
+
+@media screen and (max-width: 700px){
+  body{margin-left: 0; margin-top: 120px;}
+  #listening,.myButton{display: none;}
+  
+  .mainNav{
+    align-items: start;
+    flex-direction: row;
+    height: fit-content;
+    column-gap: 10px;
+    padding: 17px 17px 17px 14px;
+    border-width: 0px 0px 2px 0px;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .mainNav img{display: none;}
+
+  .mainNav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    column-gap: 10px;
+    row-gap: 8px;
+    margin: 0;
+    list-style-type: none;
+    padding: 5px;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+  }
+  .mainNav ul li{padding: 0;}
+}
+@media screen and (max-width: 432px){
+  body{
+    margin-top: 150px;
+  }
+}
+
+.mainNav::-webkit-scrollbar {display: none;}

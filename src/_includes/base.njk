@@ -4,6 +4,7 @@
   <title>{{ title }}</title>
   {% set css %}
     {% include "css/base.css" %}
+    {% include "css/navbar.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
 
@@ -32,8 +33,6 @@
   <main>
     {{ content | safe }}
   </main>
-
-  <iframe class="followButton" src="https://nekoweb.org/frame/follow" width="150" height="40" title=""></iframe>
 
   {% include "components/leftnav.njk" %}
 
