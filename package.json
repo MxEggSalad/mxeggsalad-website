@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "rebuild": "npx rimraf ../_built/* && npx @11ty/eleventy",
+    "upload": "cd ~/Documents/scripts/ && ./export-neko.sh"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "clean-css": "^5.3.3"
+    "clean-css": "^5.3.3",
+    "rimraf": "^6.0.1"
   }
 }
